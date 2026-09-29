@@ -14,6 +14,9 @@ import time
 import pandas as pd
 import plotly.express as px
 
+
+st.info("Created by Felopater Michel")
+
 # محاولة استيراد pyserial للاتصال بالأردوينو (في حال لم تكن مثبتة، نعمل بتجربة آمنة)
 try:
     import serial
